@@ -165,6 +165,7 @@ p{
 	color:#f26722;
 	padding:0px 0px 0 26px;
 	text-align:center;
+	text-align: left;
 	}
 #wb_footer_menu a:hover ,#wb_footer_menu a.wb_active {
 	color:#0168aa;
