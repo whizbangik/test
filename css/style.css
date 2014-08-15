@@ -174,19 +174,22 @@ p{
 **********************************************************/
 .fldSet{
 	border:none;
-	width:500px;
+	width:509px;
 }
 .fldSet p{
 	padding:0 0 10px 0;
+	overflow: hidden;
 }
 .lab{
 	width:147px;
 	height:33px;
 	font: normal  12px Arial, Helvetica, sans-serif;
 	line-height:33px;
+	display: inline-block;
 	color:#4e4e4e;
 	margin:0 0 10px 0;
 	display:block;
+	float: left;
 }
 .in{
 	width:346px;
@@ -199,6 +202,7 @@ p{
 	margin:0;
 	border:1px solid #666;
 	padding:0 5px 0 5px;
+	float: left;
 }
 .txtArea{
 	width:346px;
@@ -212,6 +216,7 @@ p{
 	padding:2px 5px 0 5px;
 	overflow:auto;
 	display:block;
+	float: left;
 }
 .txtArea:focus, .in:focus{
 	outline:none;
