@@ -1,0 +1,240 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset{
+  	margin:0;
+  	padding:0;
+	}
+body{
+  	background:#fff ;
+	}
+img,a{
+  	border:0;
+  	outline:none;
+  	text-decoration:none;
+	}
+h3 a,h1 a,h4 a{
+  	display:block;
+	text-decoration:none;
+  	border:0;
+  	width:100%;
+  	height:100%;
+	}
+ul li{
+	list-style:none;
+	}
+/**********************************************************
+			GENREAL STRUCTURE ELEMENTS
+**********************************************************/
+.fl_wb{
+	float:left;
+	}
+.fr_wb{
+	float:right;
+	}
+.cf_wb{
+	clear:both;
+	}
+.of_wb{
+	overflow:hidden;
+	}
+.mgn{
+	margin:0;
+	}
+.pad{
+	padding:0;
+	}
+/**********************************************************
+						TYPOGRAPHY
+**********************************************************/
+body{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	line-height:15px;
+	}
+p{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	line-height:15px;
+	padding:0 0 10px 0;
+	color:#666;
+	}
+/**********************************************************
+					MAIN CONTAINER
+**********************************************************/
+#wb_wraper_container{
+	}	
+#wb_container{
+	width:975px;
+	margin:0px auto 0px auto;
+	}
+														/*				  ************************
+														***********************************************************
+														*********************CODE FOR HOME PAGE********************
+														***********************************************************
+																		  ************************				 */
+
+/**********************************************************
+				   		HEADER
+**********************************************************/
+#wb_wraper_header{
+	background:url(../images/header_back.png)  repeat-y 0 0;
+	}
+#wb_header{
+	}
+#wb_logo{
+	width:278px;
+	height:133px;
+	background:url(../images/logo.png) no-repeat 0 0;
+	text-indent:100%;
+	white-space:nowrap;
+	display:block;
+ 	}
+/**********************************************************
+				   	MAIN MENU
+**********************************************************/
+#wb_menu {
+	width:723px;
+	height:45px;
+	background:url(../images/menu_back2.png) no-repeat 0 0;
+	}
+#wb_menu ul {
+	}
+#wb_menu li {
+	float:left;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	line-height:41px;
+	padding:0px 0px 0 14px;
+	}
+#wb_menu a {
+	color:#f26722;
+	}
+#wb_menu a:hover ,#wb_menu li.wb_active a{
+	color:#0168aa;
+	}
+/**********************************************************
+				   	MAIN CONTENTS
+**********************************************************/
+#wb_wraper_content_main{
+	}
+#wb_content_main{
+	background:url(../images/main_back.png) repeat-y center center;
+	}
+/**********************************************************
+				   	SECTION ONE
+**********************************************************/
+#wb_wrap_sec1{
+	}	
+#wb_sec1{
+	background:url(../images/content_back.png) repeat-x 0 0;
+	}
+/**********************************************************
+				   	FOOTER
+**********************************************************/	
+#wb_wraper_footer{	
+	}
+#wb_footer{
+	}
+#wb_copyright{
+	font: normal 12px Arial, Helvetica, sans-serif ;
+	line-height:15px;
+	color:#0168aa;
+	padding:2px 0 7px 15px;
+	}
+#wb_copyright a{
+	color:#0168aa;
+	}
+#wb_copyright a:hover{
+	color:#0168aa;
+	} 	
+/**********************************************************
+				   	FOOTER MENU
+**********************************************************/	
+#wb_footer_menu {
+	height:16px;
+	float:right;
+	}
+#wb_footer_menu ul {
+	list-style:none;
+	}
+#wb_footer_menu li {
+	height:16px;
+	float:left;
+	font: normal 12px Arial, Helvetica, sans-serif ;
+	line-height:16px;
+	}
+#wb_footer_menu a {
+	color:#f26722;
+	padding:0px 0px 0 26px;
+	text-align:center;
+	}
+#wb_footer_menu a:hover ,#wb_footer_menu a.wb_active {
+	color:#0168aa;
+	}
+/**********************************************************
+					FORM CODE	
+**********************************************************/
+.fldSet{
+	border:none;
+	width:500px;
+}
+.fldSet p{
+	padding:0 0 10px 0;
+}
+.lab{
+	width:147px;
+	height:33px;
+	font: normal  12px Arial, Helvetica, sans-serif;
+	line-height:33px;
+	color:#4e4e4e;
+	margin:0 0 10px 0;
+	display:block;
+}
+.in{
+	width:346px;
+	height:33px;
+	background:url(../images/in.jpg) no-repeat 0 0;
+	display:block;
+	font: normal  12px Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#4e4e4e;
+	margin:0;
+	border:1px solid #666;
+	padding:0 5px 0 5px;
+}
+.txtArea{
+	width:346px;
+	height:138px;
+	background:url(../images/txtarea.jpg) no-repeat 0 0;
+	font: normal  12px Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#4e4e4e;
+	border:1px solid #666;
+	margin:0 0 14px 0;
+	padding:2px 5px 0 5px;
+	overflow:auto;
+	display:block;
+}
+.txtArea:focus, .in:focus{
+	outline:none;
+}
+.btns{
+	width:85px;
+	height:32px;
+	background:#ccc url(../images/btns.jpg) repeat 0 0;
+	display:block;
+	font: normal  12px Arial, Helvetica, sans-serif;
+	line-height:32px;
+	color:#000;
+	border:1px solid #666;
+	text-align:center;
+	cursor:pointer;
+}
+/*{
+	box-shadow:3px 3px 13px rgba(0,0,0,.3);
+	-moz-box-shadow:3px 3px 13px rgba(0,0,0,.3);
+	-webkit-box-shadow:3px 3px 13px rgba(0,0,0,.3);
+	behavior: url(PIE.htc);
+	position:relative;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}*/
